@@ -1,0 +1,10 @@
+.container {
+        max-width: 2000px;
+    margin: 2px;
+    background-color: lightblue;
+    border: solid 1px;
+    text-align:center;
+    box-sizing: border-box;
+    
+   
+}

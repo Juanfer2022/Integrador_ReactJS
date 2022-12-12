@@ -1,0 +1,128 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+
+
+
+#container{
+	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	background: #0b0b0b;
+	text-align: left;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 0.5em 0.5em;
+	height: 300px;
+	width: auto;
+	
+	
+}
+
+
+
+/* 	Product details  */
+.product-details {
+    background: #0b0b0b;
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 73%;
+
+}
+
+/* 	Product Name */
+#container .product-details h1{
+	font-family: 'Old Standard TT', serif;
+	display: inline-block;
+	position: relative;
+	font-size: 24px;
+	color: #71d9f3;
+	margin: 0;
+	
+}
+
+Product Rating 
+.hint-star {
+	display: inline-block;
+	margin-left: 0.5em;
+	color: gold;
+	width: 50%;
+}
+
+
+/* The most important information about the product */
+#container .product-details > p {
+	font-family: 'Farsan', cursive;
+	text-align: left;
+	font-size: 20px;
+	color: #f6f3f3;
+	
+}
+
+.texCol{
+    font-family: 'Farsan', cursive;
+	text-align: left;
+	font-size: 20px;
+	color: #f6f3f3;
+}
+
+/* control */
+
+.control{
+	position: absolute;
+	bottom: 20%;
+	left: 3%;
+	top: 10%;
+}
+/* the Button 
+.btn {
+	transform: translateY(0px);
+	transition: 0.3s linear;
+	background: #49C608;
+	border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: #eee;
+	padding: 0;
+	margin: 0;
+	
+}*/
+
+.btn:hover{transform: translateY(-4px);}
+
+.btn span {
+	font-family: 'Farsan', cursive;
+	transition: transform 0.3s;
+	display: inline-block;
+  padding: 10px 20px;
+	font-size: 1.2em;
+	margin:0;
+	
+}
+
+
+/* product image  */
+.product-image {
+    
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 887px;
+	float: right;
+	width: 287px;
+    padding-top: 20px;
+    padding-right: 30px;
+	display: inline-block;
+	
+}
+.tamaño{
+	height: 245px;
+	width: 245%;
+}
+.product-image:hover img {transition: all 0.3s ease-out;}
+.product-image:hover img {transform: scale(1.2, 1.2);}

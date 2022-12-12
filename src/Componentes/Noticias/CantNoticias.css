@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+.font{
+    font-family: 'Farsan', cursive;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 18px;
+    padding-top: 4px;
+    color: black; 
+    
+    
+ }
