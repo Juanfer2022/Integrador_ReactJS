@@ -13,7 +13,6 @@ const router = createBrowserRouter([
     path: "/buscador",
     element: <PajinaBuscarNoticias />,
   },
-  
 ]);
 function App() {
   return (
@@ -23,4 +22,3 @@ function App() {
   );
 }
 export default App;
-

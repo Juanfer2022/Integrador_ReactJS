@@ -6,7 +6,7 @@ const Footer = () => {
     <div id="pagina">
       <div id="cabecera">Juan Antonio Fernandez - El Sauzalito Chaco </div>
       <div id="contenido"></div>
-      <div id="pie">2022 &copy; CopyRigtht</div>
+      <div id="pie">2022 &copy; Copyrigth</div>
     </div>
   );
 };

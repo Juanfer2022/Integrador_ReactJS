@@ -48,7 +48,13 @@ const PajinaBuscarNoticias = () => {
       <Header />
       <BuscadorNoticias onBuscarNoticias={onBuscarNoticias} />
       {isLoading && <Loading />}
-      {noticias && <CantNoticias noticias={noticias} />}
+      {noticias && (
+        <CantNoticias
+          noticias={noticias}
+          pagina={pagina}
+          cantPaginas={cantPaginas}
+        />
+      )}
       {noticias && <ListaNoticias noticias={noticias} />}
       {noticias && (
         <PaginadoDeNoticias
@@ -56,7 +62,7 @@ const PajinaBuscarNoticias = () => {
           onChange={onCambioPagina}
         />
       )}
-      <Footer/>
+      <Footer />
     </section>
   );
 };
