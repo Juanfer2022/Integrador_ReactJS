@@ -10,8 +10,3 @@ export const getListadoNoticias = async (criterioBusqueda, paginaActual) => {
     return notic;
 }
 
-export const getNoticia = async idNoticia => {
-    const respuesta = await fetch(`${NEWSAPI}?q=${idNoticia}&apiKey=${API_KEY}`);
-    const noticia = await respuesta.json();
-    return noticia;
-}

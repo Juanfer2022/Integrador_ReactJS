@@ -9,6 +9,7 @@ import "./PaginaBuscadorNoticias.css";
 import { useEffect, useState } from "react";
 import CantNoticias from "../Componentes/Noticias/CantNoticias";
 import { useSearchParams } from "react-router-dom";
+import Footer from "../Componentes/footer/Footer";
 
 const PajinaBuscarNoticias = () => {
   const [noticias, setNoticias] = useState();
@@ -55,6 +56,7 @@ const PajinaBuscarNoticias = () => {
           onChange={onCambioPagina}
         />
       )}
+      <Footer/>
     </section>
   );
 };
