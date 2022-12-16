@@ -73,8 +73,10 @@ role ="searchbox"
 onKeyDown = {(e) =>{
  
   if(e.key === 'Enter'){
-    setCriterioBusqueda(e.target.value);
-    e.stopPropagation()    
+   
+    e.preventDefault()   
+    alert("Cuidado. La busqueda debe tener al menos tres caracteres.Intentalo de nuevo")
+     
   }
 }}
 onChange={(e) => {
